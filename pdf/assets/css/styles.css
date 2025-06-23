@@ -1,0 +1,52 @@
+body {
+    padding: 20px;
+}
+
+.form-section {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-section h4 {
+    margin: 0;
+    padding: 10px;
+    background: #00c58e;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#pacientesTab table tbody tr:hover {
+    cursor: pointer;
+    background: #f2f2f2;
+}
+
+.therapist-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.alert-float {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.preview-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
