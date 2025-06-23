@@ -44,19 +44,3 @@ Protección contra ejecución de archivos maliciosos en /uploads/.
 
 Autenticación por sesión PHP ($_SESSION).
 
-#### faltas xxxx
-
-Los usuarios se guardan en el localStorage del navegador a través del archivo `login.js` :
-
-- Ubicación : localStorage con la clave "users"
-- Formato : JSON con pares usuario/contraseña
-
-
-#####
-
-## Base de Datos
-La base de datos MySQL configurada ( gestor_informes ) se usa para:
-
-- Pacientes (tabla patients )
-- Información del terapeuta (tabla therapist )
-Pero NO para usuarios del sistema - estos están únicamente en el localStorage del navegador.
