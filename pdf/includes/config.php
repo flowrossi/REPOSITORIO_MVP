@@ -8,6 +8,11 @@ define('DB_NAME', 'gestor_informes');
 define('BASE_PATH', dirname(__DIR__));
 define('UPLOADS_PATH', BASE_PATH . '/uploads');
 
+// Configuración de sesiones
+ini_set('session.cookie_httponly', 1);
+ini_set('session.use_only_cookies', 1);
+ini_set('session.cookie_secure', 0); // Cambiar a 1 en HTTPS
+
 // Configuración de errores (desactivar en producción)
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
